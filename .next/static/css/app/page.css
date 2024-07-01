@@ -1,68 +1,4 @@
 /*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/cards/team/v1/styles.module.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************/
-.styles_social-list__qptyG {
-  position: absolute;
-  bottom: 100%;
-  left: 0px;
-  display: flex;
-  width: 100%;
-  flex-direction: column-reverse;
-  align-items: center;
-  gap: 0.625rem;
-  transition: all 0.4s cubic-bezier(0.3, 0.02, 0, 0.6);
-}
-
-.styles_social-list__qptyG li {
-    transition: all 0.3s ease-in-out;
-  }
-
-@media (min-width: 768px) {
-  .styles_social-list__qptyG {
-    visibility: hidden;
-    opacity: 0;
-    transform: scale3d(0, 0, 1);
-    transform-origin: bottom;
-  }
-    .styles_social-list__qptyG li {
-      transition-delay: 0s;
-      transform: translateY(-20px);
-      visibility: hidden;
-      opacity: 0;
-    }
-      .styles_social-hoverable-area__ZFmdx:hover > .styles_hover-me__mUB4m {
-    --tw-bg-opacity: 1;
-    background-color: rgb(26 26 28 / var(--tw-bg-opacity));
-  }
-      .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG {
-        visibility: visible;
-        opacity: 1;
-        transform: scaleY(1);
-      }
-        .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li {
-          transform: translateY(0);
-          transition-delay: 0s;
-          visibility: visible;
-          opacity: 1;
-        }
-          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(2) {
-            transition-delay: 0.2s;
-          }
-          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(3) {
-            transition-delay: 0.3s;
-          }
-          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(4) {
-            transition-delay: 0.4s;
-          }
-          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(5) {
-            transition-delay: 0.5s;
-          }
-          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(6) {
-            transition-delay: 0.6s;
-          }
-}
-
-/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/keen-slider/keen-slider.min.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************/
 .keen-slider:not([data-keen-slider-disabled]){-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;align-content:flex-start;display:flex;overflow:hidden;position:relative;touch-action:pan-y;-webkit-user-select:none;-moz-user-select:none;user-select:none;-khtml-user-select:none;width:100%}.keen-slider:not([data-keen-slider-disabled]) .keen-slider__slide{min-height:100%;overflow:hidden;position:relative;width:100%}.keen-slider:not([data-keen-slider-disabled])[data-keen-slider-reverse]{flex-direction:row-reverse}.keen-slider:not([data-keen-slider-disabled])[data-keen-slider-v]{flex-wrap:wrap}
@@ -126,28 +62,67 @@
   }
 
 /*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/layout/header/desktop/v2/header.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/cards/team/v1/styles.module.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************/
-.header_modal-enter__KN_dr {
-  opacity: 0;
-  transform: translateY(-110%);
+.styles_social-list__qptyG {
+  position: absolute;
+  bottom: 100%;
+  left: 0px;
+  display: flex;
+  width: 100%;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 0.625rem;
+  transition: all 0.4s cubic-bezier(0.3, 0.02, 0, 0.6);
 }
 
-.header_modal-enter-active__nKVdz {
-  opacity: 1;
-  transition: all 0.5s ease-in-out;
-  transform: translateY(0);
-}
+.styles_social-list__qptyG li {
+    transition: all 0.3s ease-in-out;
+  }
 
-.header_modal-exit__zyOFT {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.header_modal-exit-active__4qwio {
-  opacity: 0;
-  transform: translateY(-110%);
-  transition: all 0.5s ease-in-out;
+@media (min-width: 768px) {
+  .styles_social-list__qptyG {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale3d(0, 0, 1);
+    transform-origin: bottom;
+  }
+    .styles_social-list__qptyG li {
+      transition-delay: 0s;
+      transform: translateY(-20px);
+      visibility: hidden;
+      opacity: 0;
+    }
+      .styles_social-hoverable-area__ZFmdx:hover > .styles_hover-me__mUB4m {
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 26 28 / var(--tw-bg-opacity));
+  }
+      .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG {
+        visibility: visible;
+        opacity: 1;
+        transform: scaleY(1);
+      }
+        .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li {
+          transform: translateY(0);
+          transition-delay: 0s;
+          visibility: visible;
+          opacity: 1;
+        }
+          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(2) {
+            transition-delay: 0.2s;
+          }
+          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(3) {
+            transition-delay: 0.3s;
+          }
+          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(4) {
+            transition-delay: 0.4s;
+          }
+          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(5) {
+            transition-delay: 0.5s;
+          }
+          .styles_social-hoverable-area__ZFmdx:hover .styles_social-list__qptyG li:nth-child(6) {
+            transition-delay: 0.6s;
+          }
 }
 
 /*!********************************************************************************************************************************************************************************************************************************************************************************!*\

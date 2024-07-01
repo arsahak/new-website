@@ -8,7 +8,7 @@ export const blogSectionData: BlogSectionProps = {
   blogs: [
     {
       image: {
-        src: '/assets/images/blog/blog-1.png',
+        src: '/assets/images/blog/blog-1.webp',
         alt: 'We implement state-of-the-art encryption',
       },
       date: {
@@ -25,7 +25,7 @@ export const blogSectionData: BlogSectionProps = {
     },
     {
       image: {
-        src: '/assets/images/blog/blog-2.png',
+        src: '/assets/images/blog/blog-2.webp',
         alt: 'We cater to various industries',
       },
       date: {
@@ -42,7 +42,7 @@ export const blogSectionData: BlogSectionProps = {
     },
     {
       image: {
-        src: '/assets/images/blog/blog-3.png',
+        src: '/assets/images/blog/blog-3.webp',
         alt: 'IT solutions enhance efficiency',
       },
       date: {

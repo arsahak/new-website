@@ -12,7 +12,7 @@ export const blogSectionData: BlogSectionProps = {
   blogs: [
     {
       image: {
-        src: '/assets/images/blog/blog-4.png',
+        src: '/assets/images/blog/blog-4.webp',
         alt: 'blog-1',
       },
       date: 'October 19, 2024',

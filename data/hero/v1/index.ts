@@ -4,7 +4,7 @@ export const heroData: HeroProps = {
   items: [
     {
       image: {
-        src: '/assets/images/hero/hero-1.jpg',
+        src: '/assets/images/hero/hero-banner-one.jpg',
         alt: 'hero 1',
       },
       title: 'Empowering Your Digital Future',
@@ -15,7 +15,7 @@ export const heroData: HeroProps = {
     },
     {
       image: {
-        src: '/assets/images/hero/hero-11.jpeg',
+        src: '/assets/images/hero/hero-banner-two.jpg',
         alt: 'hero 1',
       },
       title: 'Empowering Your Digital Future',
@@ -26,7 +26,7 @@ export const heroData: HeroProps = {
     },
     {
       image: {
-        src: '/assets/images/hero/hero-12.jpeg',
+        src: '/assets/images/hero/hero-banner-three.jpg',
         alt: 'hero 1',
       },
       title: 'Empowering Your Digital Future',

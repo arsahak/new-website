@@ -9,7 +9,7 @@ export const testimonialSectionData: TestimonialSectionProps = {
     {
       person: {
         image: {
-          src: '/assets/images/testimonial/person-1.jpg',
+          src: '/assets/images/testimonial/person-1.webp',
           alt: 'Jane Cooper',
         },
         name: 'Jane Cooper',
@@ -22,7 +22,7 @@ export const testimonialSectionData: TestimonialSectionProps = {
     {
       person: {
         image: {
-          src: '/assets/images/testimonial/person-2.jpg',
+          src: '/assets/images/testimonial/person-2.webp',
           alt: 'Robert Fox',
         },
         name: 'Robert Fox',
