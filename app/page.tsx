@@ -16,8 +16,9 @@ import { TestimonialSection } from '@/src/sections/testimonial/v1';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | Home',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'GenFlyo - Your Vision, Your Codes | Home',
+  description:
+    'Discover GenFlyo, where your vision becomes reality through innovative coding solutions. Empower your projects with bespoke software development tailored to your unique needs. Transform ideas into exceptional digital experiences with GenFlyo.',
 };
 
 export default function Page() {

@@ -13,8 +13,9 @@ interface Props {
 }
 
 export const metadata: Metadata = {
-  title: 'Techlab',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'GenFlyo - Your Vision, Your Codes',
+  description:
+    'Discover GenFlyo, where your vision becomes reality through innovative coding solutions. Empower your projects with bespoke software development tailored to your unique needs. Transform ideas into exceptional digital experiences with GenFlyo.',
 };
 
 export default async function RootLayout({ children }: Props) {
