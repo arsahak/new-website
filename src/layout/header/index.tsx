@@ -5,7 +5,7 @@ interface MainHeaderProps {
   version: string;
 }
 
-export const MainHeader: React.FC<MainHeaderProps> = ({ version }) => {
+export const MainHeader: React.FC<MainHeaderProps> = () => {
   return (
     <>
       <HeaderV1 />
